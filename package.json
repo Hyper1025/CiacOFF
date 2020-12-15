@@ -1,0 +1,21 @@
+{
+  "name": "CiacOff",
+  "version": "1.0.0",
+  "description": "Um bot que Tweeta horário de queda e retorno da rede de internet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hyper1025",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "check-internet-connected": "^2.0.5",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.5.0",
+    "ora": "^5.1.0",
+    "twitter-lite": "^0.14.0"
+  }
+}
