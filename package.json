@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.21.0",
     "check-internet-connected": "^2.0.5",
+    "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "figlet": "^1.5.0",
     "ora": "^5.1.0",
