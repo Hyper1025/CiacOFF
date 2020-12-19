@@ -9,10 +9,10 @@ const colors = require('colors');
 
 // Esquema de cores para o console
 colors.setTheme({
-  info: 'Blue',
+  info: 'bgGreen',
   help: 'cyan',
   warn: 'yellow',
-  success: 'Green',
+  success: 'bgBlue',
   error: 'red'
 });
 
@@ -131,7 +131,7 @@ setInterval(() => {
           console.log(`🐦 ${DateTimeFormat(dataAtual)} - Post`.help);
         } catch (error) {
           // Caso haja erro, o escrevemos no console
-          console.log(colors.red(error.message))
+          console.log(error)
         }
       } // Fim do if  
     })
